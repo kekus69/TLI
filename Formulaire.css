@@ -25,7 +25,8 @@
 }
 
 /* Pour toutes les balises "p" */
-#formulaire p {
+#formulaire li {
+  list-style: none;
   padding: 2%;
 }
 
@@ -75,8 +76,18 @@
   vertical-align: top;
 }
 
- #formulaire-inscription {
+#formulaire-inscription {
   display: inline-block;
   width: 25%;
   vertical-align: top;
+}
+
+:invalid { 
+  background-color: #F0DDDD;
+  border-color: #e88;
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+  -moz-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -o-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -ms-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  box-shadow:0 0 5px rgba(255, 0, 0, .8);
 }
